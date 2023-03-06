@@ -1,13 +1,18 @@
-import React from "react";
-import "../App.scss";
-import { Login } from "./Login";
+import { ThemeProvider } from '@mui/material/styles'
+import theme from '../utils/theme'
+import '../App.scss'
+import { Login } from './Login'
+import { Dashboard } from './dashboard'
 
 function App() {
   return (
-    <div className="container">
-      <Login />
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <div className="container">
+        {/* <Login /> */}
+        <Dashboard />
+      </div>
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
