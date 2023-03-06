@@ -1,0 +1,30 @@
+.header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+
+  /* identical to box height */
+  letter-spacing: -0.04em;
+
+  color: #213f7d;
+}
+
+.text-primary {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545f7d;
+}
+
+.text-secondary {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #39cdcc;
+}

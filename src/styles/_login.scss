@@ -1,0 +1,24 @@
+.login {
+  grid-column: full-start / full-end;
+
+  &_logo {
+    margin-top: 10.6rem;
+    margin-left: 9.7rem;
+  }
+
+  &_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 28.1rem;
+
+    &--one {
+      margin-top: 13.9rem;
+      margin-left: 6.7rem;
+    }
+    &--two {
+      margin-top: 7.3rem;
+      margin-right: 15.7rem;
+      margin-left: 10rem;
+    }
+  }
+}
